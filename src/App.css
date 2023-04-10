@@ -1,0 +1,64 @@
+.recipe {
+  background-color: steelblue;
+}
+
+/* ingredient list */
+
+ul.ingredient-list {
+  padding: 0;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
+
+ul.ingredient-list li {
+  list-style: none;
+  display: flex;
+  flex: 1;
+}
+
+ul.ingredient-list li span:first-child {
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: green;
+  flex: 1;
+}
+
+ul.ingredient-list li span:nth-child(2) {
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  flex: 1;
+  text-align: end;
+  background-color: greenyellow;
+}
+
+/* method */
+
+.method-list {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.method-list li {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+  /* background-color: orangered; */
+  /* border: solid 1px black; */
+}
+
+.method-list li h2 {
+  margin: 1rem 0;
+  width: 6rem;
+  /* background-color: orange; */
+}
+
+.method-list li p {
+  margin: 1rem 0;
+  flex: 1;
+  /* background-color: yellowgreen; */
+}
